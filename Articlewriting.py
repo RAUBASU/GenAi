@@ -5,7 +5,7 @@ import streamlit as st
 clt = OpenAI(
     # defaults to os.environ.get("OPENAI_API_KEY")
     api_key=‘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’
-
+)
 def main():
     st.title("Article Writer")
     notes = st.text_area("Enter Topic Information:")
